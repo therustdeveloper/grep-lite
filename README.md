@@ -24,3 +24,15 @@ or just run:
 
 cargo doc --open
 ```
+
+## Add Clap
+
+```commandline
+cargo add clap@2
+```
+
+### Run program with arguments
+
+```commandline
+cargo run -- picture
+```

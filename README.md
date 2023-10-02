@@ -7,3 +7,20 @@ From Rust in Action.
 ```commandline
 cargo add regex@1
 ```
+
+## Generate Local Documentation
+
+```commandline
+cargo doc
+```
+
+### Open the doc
+
+```commandline
+cd target/doc/grep_lite/
+open index.html
+
+or just run:
+
+cargo doc --open
+```
